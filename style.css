@@ -88,13 +88,21 @@ footer {
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
+        border: 10px plum;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        padding: 8px 15px;
+        box-shadow: 0 2px 10px plum;
+        background-color: white;
+        
 }
 
 .block {
         flex: 1 1 100px;
         height: 100px;
         border-radius: 20px;
-        color: black;
+        color: rgb(119, 59, 94);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -107,7 +115,7 @@ footer {
 }
 
 .block:hover {
-        color: darkmagenta;
+        color: rgb(255, 255, 255);
         transform: translateX(5px)
 }
 
